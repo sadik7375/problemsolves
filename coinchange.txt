@@ -1,0 +1,52 @@
+#include<bits/stdc++.h>
+using namespace std;
+main()
+{
+
+int n,count1=0;
+cin>>n;
+while( n)
+{
+	if(n>=100)
+	{
+		n=n-100;
+		count1++;          
+	}
+	else if(n>=20)
+	{
+		
+		n=n-20;
+		count1++;
+	}
+	
+		else if(n>=10)
+	{
+		
+		n=n-10;
+		count1++;
+	}
+		else if(n>=5)
+	{
+		
+		n=n-5;
+		count1++;
+	}
+	else{
+		
+		n=n-1;
+		count1++;
+	}
+	
+	
+
+	
+	
+}
+
+	cout<<count1<<endl;
+
+
+
+return 0;
+
+}

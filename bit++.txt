@@ -1,0 +1,35 @@
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int n,count1=0;
+   cin>>n;
+   
+  char s[3];
+   
+    while(n--)  
+      
+   
+   {
+       
+       
+      cin>>s;
+      if(s[1]=='+')
+      {
+          count1++;
+      }
+      else{
+          count1--;
+      }
+        
+   
+   
+}
+   cout<<count1<<endl; //when need one string but compare two statement ,always cout count value outside of the loop...answer do not print until loop is running
+
+    return 0;
+}
